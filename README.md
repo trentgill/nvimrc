@@ -11,12 +11,13 @@ largely copied from the primeagen's setup / yt video
 
 ## usage
 
-leader. is mapped to " " (aka spacebar)
+leader is mapped to " " (aka spacebar)
+written with a "." to connect (which is not typed)
 
 #### file navigation
 leader.pv      open netrw directory manager
 leader.pf      fuzzy find a file and jump to it
-<C-p>           fuzzy find a file in the git repo and jump to it
+C-p           fuzzy find a file in the git repo and jump to it
 leader.ps      grep for a string in wd and jump to it with preview
 
 #### buffer navigation
@@ -24,8 +25,8 @@ VISUAL MODE with a highlighted selection
 J               move selection down
 K               move selection up
 
-<C-u>           jump up half a page
-<C-d>           jump down half a page
+C-u           jump up half a page
+C-d           jump down half a page
 
 #### editing
 leader.u       open undotree
@@ -45,10 +46,10 @@ leader.s       replace current word globally in buffer
 leader.gs      open fugitive for git access (TODO usage)
 
 #### lsp / autocompletion
-<C-space>       begin completion
-<C-n>           next completion
-<C-p>           previous completion
-<C-y>           accept completion
+C-space       begin completion
+C-n           next completion
+C-p           previous completion
+C-y           accept completion
 
 gd              goto definition
 
@@ -61,10 +62,10 @@ leader.vd
 leader.vca
 leader.vrr
 leader.vrn
-<C-h>
+C-h
 
 ### conjure
-<localleader> is "," (aka comma), abbr as ll.
+localleader is "," (aka comma), abbr as ll.
 
 Evaluation
 ll.eb          evaluate the whole file
