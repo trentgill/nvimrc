@@ -7,6 +7,7 @@ largely copied from the primeagen's setup / yt video
 - cargo [for fennel-lsp] (https://www.rust-lang.org/learn/get-started)
 - ripgrep [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - fd [sharkdp/fd](https://github.com/sharkdp/fd)
+- fennel
 
 ## usage
 
